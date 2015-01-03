@@ -117,4 +117,11 @@
             <merges target="" />
         </js-module>
     </platform>
+    
+    <!-- browser -->
+    <platform name="browser">
+        <js-module src="src/browser/EmailComposerProxy.js" name="EmailComposerProxy">
+            <merges target="" />
+        </js-module>
+    </platform>
 </plugin>
